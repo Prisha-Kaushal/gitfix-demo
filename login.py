@@ -3,7 +3,7 @@ def login(username, password):
         return "Login successful"
 
     if password == "":
-        return password.strip()
+        return "Password cannot be empty"
 
     return "Invalid username or password"
 
